@@ -10,7 +10,7 @@ steps:
     azureSubscription: 'ShiviAzureVSubscription' 
     action: 'Create Or Update Resource Group' # 'Create Or Update Resource Group' | 'Select Resource Group' | 'Start' | 'Stop' | 'StopWithDeallocate' | 'Restart' | 'Delete' | 'DeleteRG'. Required. Action. Default: Create Or Update Resource Group.
     resourceGroupName: 'RG-devops01-cicd01'
-    location: '(US) East US' # string. Required when action = Create Or Update Resource Group. Location. 
+    location: 'East US' # string. Required when action = Create Or Update Resource Group. Location. 
   # Template
     templateLocation:  'URL of the file' # 'Linked artifact' | 'URL of the file'. Required. Template location. Default: Linked artifact.
     csmFileLink: 'https://github.com/srisurya17/devops01/blob/main/template/template.json' # string. Required when templateLocation = URL of the file. Template link. 
