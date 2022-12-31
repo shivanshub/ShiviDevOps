@@ -1,7 +1,7 @@
 # Azure resource group deployment v2
 # Deploy an Azure Resource Manager (ARM) template to a resource group and manage virtual machines.
 steps:
-- task: AzureResourceGroupDeployment
+- task: AzureResourceGroupDeployment@2
   inputs:
   # Azure Details
     azureSubscription: '2a0958e1-18b1-4f2c-8847-2393d588301d' 
