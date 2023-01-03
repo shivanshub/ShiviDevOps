@@ -1,7 +1,7 @@
 # Azure resource group deployment v2
 # Deploy an Azure Resource Manager (ARM) template to a resource group and manage virtual machines.
 
-pool: ShiviBSLaptop
+pool: 'Azure Pipelines'
 
 steps:
 - task: AzureResourceGroupDeployment@2
